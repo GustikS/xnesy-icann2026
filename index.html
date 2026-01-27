@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-NeSy Special Session @ ICANN 2026</title>
+    <style>
+        :root {
+            --primary: #2c3e50; /* Academic Blue */
+            --accent: #e74c3c;  /* Alert Red for Deadlines */
+            --light: #ecf0f1;
+            --text: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); margin: 0; padding: 0; }
+
+        /* Header */
+        header { background: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+
+        /* The "Hook" Banner */
+        .journal-banner {
+            background: #fff3cd;
+            color: #856404;
+            border-bottom: 1px solid #ffeeba;
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+        }
+        .journal-banner a { color: #856404; text-decoration: underline; }
+
+        /* Container */
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+
+        /* Sections */
+        section { margin-bottom: 3rem; }
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; color: var(--primary); }
+
+        /* Organizers Grid */
+        .organizers { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .organizer-card { background: var(--light); padding: 1rem; border-radius: 8px; }
+        .organizer-card h3 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.1rem; }
+
+        /* Buttons */
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px; }
+        .btn:hover { background: #34495e; }
+
+        /* Responsive */
+        @media (max-width: 600px) { header h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+    <div class="journal-banner">
+        🚀 <strong>Journal Track:</strong> Selected papers will be invited to the <a href="https://neurosymbolic-ai-journal.com/content/call-papers-special-issue-explainable-neurosymbolic-ai-x-nesy" target="_blank">X-NeSy Special Issue (Neurosymbolic AI Journal)</a>.
+    </div>
+
+    <header>
+        <h1>Explainable Neurosymbolic AI (X-NeSy)</h1>
+        <p>Special Session at ICANN 2026 | September 14–17 | [Location]</p>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About the Session</h2>
+            <p>Building truly understandable and performant AI systems is a central challenge. This special session is dedicated to technical contributions that advance Explainable AI (XAI) by leveraging the synergy between continuous deep learning models and discrete, symbolic structures (logic, programs, knowledge graphs).</p>
+            <p>We are seeking work where the neurosymbolic paradigm leads to models with built-in transparency and high-fidelity explanations that go beyond general-purpose XAI methods.</p>
+        </section>
+
+        <section id="topics">
+            <h2>Topics of Interest</h2>
+            <p>We welcome submissions from related fields, including mechanistic interpretability, causal inference, formal methods, and program synthesis. Key topics include:</p>
+            <ul>
+                <li>Interpretable Representations</li>
+                <li>Knowledge Extraction</li>
+                <li>Transparent-by-Design Models</li>
+                <li>Generating Structured Explanations</li>
+                <li>Explanations over Structured Data</li>
+            </ul>
+        </section>
+
+        <section id="dates">
+            <h2>Important Dates</h2>
+            <ul>
+                <li><strong>ICANN Submission Deadline:</strong> [Insert Date]</li>
+                <li><strong>Notification of Acceptance:</strong> [Insert Date]</li>
+                <li><strong>ICANN Conference:</strong> 14–17 September 2026</li>
+                <li><span style="color: var(--accent);"><strong>Journal Extension Deadline:</strong> November/December 2026</span></li>
+            </ul>
+            <br>
+            <a href="https://e-nns.org/icann2026/" class="btn">Submit to ICANN 2026</a>
+            <a href="https://neurosymbolic-ai-journal.com/content/call-papers-special-issue-explainable-neurosymbolic-ai-x-nesy" class="btn" style="background-color: #555;">View Journal Call</a>
+        </section>
+
+        <section id="organizers">
+            <h2>Organizers</h2>
+            <div class="organizers">
+                <div class="organizer-card">
+                    <h3>Roberto Confalonieri</h3>
+                    <p>University of Padua, Italy</p>
+                    <small><a href="https://www.math.unipd.it/~rconfalonieri/">Website</a></small>
+                </div>
+                <div class="organizer-card">
+                    <h3>Giuseppe Marra</h3>
+                    <p>KU Leuven, Belgium</p>
+                    <small><a href="https://www.giuseppemarra.com/">Website</a></small>
+                </div>
+                <div class="organizer-card">
+                    <h3>Gustav Šír</h3>
+                    <p>Czech Technical University, Czechia</p>
+                    <small><a href="https://gustiks.github.io/">Website</a></small>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer style="text-align: center; padding: 2rem; font-size: 0.8rem; color: #777;">
+        &copy; 2026 X-NeSy Organizers. Hosted on GitHub Pages.
+    </footer>
+
+</body>
+</html>
